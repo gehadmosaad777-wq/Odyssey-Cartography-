@@ -7,7 +7,7 @@ This directory is the execution source of truth for the Odyssey hackathon build.
 ## Current Status
 
 - Research, solution definition, and documentation: complete.
-- Application scaffold: not started.
+- Application scaffold: in progress (builds locally under the Pages base path; not yet deployed).
 - Data pipeline: not started.
 - Public demo: not deployed.
 - Feature freeze: Saturday 10:00 Africa/Cairo.

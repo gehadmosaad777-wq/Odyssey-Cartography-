@@ -2,7 +2,7 @@
 
 **NASA Space Apps Challenge Cairo 2026 — "Interplanetary Survival Guide: Martian Map"**
 
-> **Status:** Research, planning, and documentation are in place. The application scaffold, data pipeline, and public demo are not implemented yet. Commands and links marked as targets below will be updated as the build lands.
+> **Status:** Research, planning, and documentation are in place. The Vite + React + TypeScript scaffold now builds under the GitHub Pages base path with a placeholder shell. The data pipeline, map layers, routing, safety model, and public demo are not implemented yet.
 
 ## What It Is
 
@@ -44,9 +44,9 @@ Public demo link: **TBD after the Phase 0 GitHub Pages deploy.**
 
 The demo must open without a login and must not depend on a local development server.
 
-## Target Development Setup
+## Development Setup
 
-These commands are targets for the implementation phase. The repository does not yet contain `package.json` or `scripts/preprocess.py`.
+These commands work with the current scaffold:
 
 ```bash
 npm install
@@ -55,7 +55,7 @@ npm run build
 npm run preview
 ```
 
-Data preprocessing target:
+The data preprocessing script is still a target; the repository does not yet contain `scripts/preprocess.py`:
 
 ```bash
 python3 scripts/preprocess.py
